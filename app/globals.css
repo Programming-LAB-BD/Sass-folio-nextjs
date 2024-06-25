@@ -65,7 +65,7 @@
 }
 
 .active {
-  @apply bg-secondary text-primary;
+  @apply bg-secondary text-primary md:rounded-md;
 }
 
 .active:hover::after {

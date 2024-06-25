@@ -7,7 +7,6 @@ export default function LogoArea({ width }) {
       <a href="#home">
         <Image
           src={black_logo}
-          placeholder="blur"
           alt="Programming LAB BD"
           className="p-2 ml-6 dark:invert"
         />
