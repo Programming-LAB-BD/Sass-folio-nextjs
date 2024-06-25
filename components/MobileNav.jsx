@@ -33,11 +33,12 @@ export default function MobileNav({ navItems }) {
         <div id="nav-area" className="">
           <ul>
             {Items.map((item, index) => (
-              <NavItem
+              <NavItem // There is key prop needed here
                 name={item.name}
                 iconClass={item.iconClass}
                 navigate={item.navigate}
                 index={index}
+                key={index}
               />
             ))}
           </ul>

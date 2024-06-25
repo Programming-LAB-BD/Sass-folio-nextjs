@@ -10,11 +10,12 @@ export default function DesktopNav({ navItems }) {
         <div id="nav-area" className="w-[60%] max-w-[600px] p-[6px] pr-6">
           <ul className="flex justify-evenly items-center">
             {Items.map((item, index) => (
-              <NavItem
+              <NavItem // There is key prop needed here
                 name={item.name}
                 iconClass={item.iconClass}
                 navigate={item.navigate}
                 index={index}
+                key={index}
               />
             ))}
           </ul>
