@@ -75,9 +75,9 @@ export default function MobileNav({ navItems }) {
           <ul>
             {Items.map((item, index) => (
               <NavItem
-                name={item.name}
-                iconClass={item.iconClass}
-                navigate={item.navigate}
+                name={item?.name}
+                iconClass={item?.iconClass}
+                navigate={item?.navigate}
                 index={index}
                 key={index}
                 handleCloseBtn={handleCloseBtn}

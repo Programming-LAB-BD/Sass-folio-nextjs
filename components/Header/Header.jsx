@@ -4,30 +4,31 @@ import MobileNav from "./MobileNav";
 const navItems = [
   {
     name: "Home",
-    iconClass: "fa-solid fa-house",
+    iconClass: ["fas", "house"],
     navigate: "/",
   },
   {
     name: "About",
-    iconClass: "fa-solid fa-user",
+    iconClass: ["fas", "user"],
     navigate: "/about",
   },
   {
     name: "Services",
-    iconClass: "fa-solid fa-gear",
+    iconClass: ["fas", "gear"],
     navigate: "/services",
   },
   {
     name: "Portfolio",
-    iconClass: "fa-solid fa-briefcase",
+    iconClass: ["fas", "briefcase"],
     navigate: "/portfolio",
   },
   {
     name: "Contact",
-    iconClass: "fa-solid fa-envelope",
+    iconClass: ["fas", "envelope"],
     navigate: "/contact",
   },
 ];
+
 export default function Header() {
   return (
     <header id="header">

@@ -11,9 +11,9 @@ export default function DesktopNav({ navItems }) {
           <ul className="flex justify-evenly items-center">
             {Items.map((item, index) => (
               <NavItem // There is key prop needed here
-                name={item.name}
-                iconClass={item.iconClass}
-                navigate={item.navigate}
+                name={item?.name}
+                iconClass={item?.iconClass}
+                navigate={item?.navigate}
                 index={index}
                 key={index}
               />
