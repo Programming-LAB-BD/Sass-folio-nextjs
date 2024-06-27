@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <section>
       <div className="bg-primary_transparent min-h-screen md:min-h-[91.3vh] text-text_primary">
-        <div className="w-5/6 bg-opacity-100 mx-auto pt-20 md:pt-24 md:flex md:items-center md:justify-center md:min-h-full">
+        <div className="w-5/6 bg-opacity-100 mx-auto py-20 md:py-24 md:flex md:items-center md:justify-center md:min-h-full">
           <div className="flex gap-20 flex-col-reverse md:flex-row justify-between">
             <div className="text-center md:max-w-[60%]">
               <h1 className="text-4xl font-semibold mb-3">Hi, I&apos;m</h1>

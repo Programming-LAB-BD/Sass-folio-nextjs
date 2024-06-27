@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function ServiceItem({ name, icon, text, index }) {
   return (
     <div
-      className="single_item bg-primary text-text_secondary rounded-md py-8 px-4"
+      className="single_item bg-primary text-text_secondary rounded-md py-8 px-4 md:max-w-[550px] md:mx-auto"
       key={index}
     >
       <div className="service_heading text-2xl font-medium text-center">

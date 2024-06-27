@@ -39,7 +39,7 @@ export default function ServicePage() {
     <PageContainer heading={"My Services"}>
       <div
         id="service_items"
-        className="grid gap-6 md:grid-flow-col md:grid-rows-3 lg:grid-rows-2"
+        className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
       >
         {serviceItems.map((item, index) => (
           <ServiceItem

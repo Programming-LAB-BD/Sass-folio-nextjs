@@ -39,7 +39,7 @@ export default function PortfolioPage() {
     <PageContainer heading={"My Portfolio"}>
       <div
         id="service_items"
-        className="grid gap-6 md:grid-flow-col md:grid-rows-3 lg:grid-rows-2"
+        className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 justify-center items-center"
       >
         {portfolioItems.map((item, index) => (
           <PortfolioItem

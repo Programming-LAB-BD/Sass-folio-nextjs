@@ -70,7 +70,7 @@ export default function MobileNav({ navItems }) {
         >
           <FontAwesomeIcon icon="fa-solid fa-xmark" size="md" />
         </div>
-        <LogoArea width={"w-[80%]"} />
+        <LogoArea width={"w-[80%]"} handleCloseBtn={handleCloseBtn} />
         <div id="nav-area" className="">
           <ul>
             {Items.map((item, index) => (

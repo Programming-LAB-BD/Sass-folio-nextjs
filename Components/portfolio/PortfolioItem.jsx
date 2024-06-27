@@ -2,16 +2,19 @@ import Image from "next/image";
 
 export default function PortfolioItem({ image_src, image_alt, text, index }) {
   return (
-    <div className="single_item bg-primary rounded-md p-4 pb-8" key={index}>
+    <div
+      className="single_item bg-primary rounded-md p-4 pb-8 md:max-w-[550px]  md:mx-auto"
+      key={index}
+    >
       <div className="flex flex-col gap-2">
-        <div className="image mb-2 max-h-[220px] overflow-hidden">
+        <div className="image mb-2 md:h-[240px]  overflow-hidden">
           <Image
             src={image_src}
             alt={image_alt}
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: "100%", height: "auto" }}
+            style={{ width: "100%", height: "100%", objectPosition: "center" }}
           />
         </div>
         <div className="text-center text-text_secondary text-lg">
