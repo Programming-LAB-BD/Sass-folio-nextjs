@@ -36,7 +36,7 @@ export default function Home() {
         <div className="w-5/6 bg-opacity-100 mx-auto pt-20 md:pt-24 md:flex md:items-center md:justify-center md:min-h-full">
           <div className="flex gap-20 flex-col-reverse md:flex-row justify-between">
             <div className="text-center md:max-w-[60%]">
-              <h1 className="text-4xl font-semibold mb-3">Hi, I'm</h1>
+              <h1 className="text-4xl font-semibold mb-3">Hi, I&apos;m</h1>
               <h2 className="text-3xl mb-3">{name}</h2>
               <TextArea paragraph={paragraph} span={span} />
               <SocialLink socialLinkItems={socialLinkItems} />
